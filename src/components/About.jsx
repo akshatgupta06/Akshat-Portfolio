@@ -41,7 +41,7 @@ const About = () => {
               >
                 <Box
                   component="img"
-                  src="/images/profile.jpg"
+                  src={`${import.meta.env.BASE_URL}images/profile.jpg`}
                   alt="Akshat Gupta"
                   sx={{
                     width: "100%",
